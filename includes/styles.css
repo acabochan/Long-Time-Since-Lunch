@@ -1,0 +1,278 @@
+body {
+  height:100vh;
+  width:100vw;
+  background-color: #fff6e2;
+
+}
+
+.sandwich-body{
+  height:200vh;
+  width:100vw;
+}
+
+.sandwich-body::-webkit-scrollbar {
+  display: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.table {
+  background-image: url("../photos/table.png"); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  height:100vh;
+  width:100vw;
+  z-index: 0;
+}
+
+.flashback-bg {
+  background-image: url("../photos/flashback-bg.png"); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  height:100vh;
+  width:100vw;
+  z-index: 0;
+}
+
+
+.coffee {
+  position: absolute;
+  top: 39vh;
+  left: 43vw;
+  z-index: 2; /* Ensure it's above the table */
+}
+
+.coffee-image {
+  width: 13.5%; /* Adjust width as needed */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+.frenchtoast {
+  position: absolute;
+  top: 31vh;
+  left: 54vw;
+  z-index: 2;
+}
+.frenchtoast-image {
+  width: 31%; 
+  height: auto;
+}
+
+.sandwich {
+  position: absolute;
+  top: 17.5vh;
+  left: 32.5vw;
+  z-index: 2;
+}
+.sandwich-image {
+  width: 21%; 
+  height: auto; 
+}
+
+.tea {
+  position: absolute;
+  top: 19vh;
+  left: 50.5vw;
+  z-index: 2;
+}
+.tea-image {
+  width: 20%; 
+  height: auto;
+}
+
+.person_1 {
+  background-image: url("../photos/person_1.png"); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  height:100vh;
+  width:100vw;
+}
+
+.person_2 {
+  background-image: url("../photos/person_2.png"); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  position: absolute;
+  z-index: 1;
+  height:100vh;
+  pointer-events: none;
+  width:100vw;
+}
+
+.the_check {
+  position: absolute;
+  top: 48vh;
+  left: 45.5vw;
+  width: 162px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 2
+}
+
+.the_check-image {
+  width: 143%;
+  height: auto;
+}
+
+
+/* .hello {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  width: 203.5px;
+  height: 4%;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+  animation: typing 3s steps(18) 1, fadeOut 0.4s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s, 4s;
+
+} */
+
+@keyframes fadeOut {
+  to {opacity: 0;} 
+} 
+
+@keyframes typing {
+  from { width:0; }
+}
+
+#hellos {
+  position: absolute;
+  /* top: -110%; */
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  width: 203.5px;
+  height: 95%;
+  bottom: -87%;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+
+}
+
+.dialogue-text {
+  position: absolute;
+  top: 6.5vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+
+  font-size: 30px; /* Adjust the font size as needed */
+  font-family: "rockwell-nova", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.texting-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: pre-wrap; 
+  overflow: hidden;
+  padding: 10px; /* Add padding to create a reactive box around the text */
+  border: 2px solid #ccc; /* Add border to create a reactive box around the text */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: #fff; /* Add background color for the reactive box */
+  word-wrap: break-word;
+  font-size: 20px; /* Adjust the font size as needed */
+  font-family: "rockwell-nova", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  max-width: 15%; /* Adjust the width as needed */
+}
+
+
+.texting-text2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: pre-wrap; 
+  overflow: hidden;
+  padding: 10px; /* Add padding to create a reactive box around the text */
+  border: 2px solid #ccc; /* Add border to create a reactive box around the text */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: #fff; /* Add background color for the reactive box */
+  word-wrap: break-word;
+  font-size: 20px; /* Adjust the font size as needed */
+  font-family: "rockwell-nova", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  max-width: 15%; /* Adjust the width as needed */
+}
+
+.phone {
+  background-image: url("../photos/phone.png"); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  height:100vh;
+  width:100vw;
+  z-index: 0;
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    pointer-events: auto; /* Enable pointer events after the animation */
+  }
+}
+
+.read {
+  position: absolute;
+  top: 21.5vh;
+  left: 57vw;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+
+  font-size: 20px; /* Adjust the font size as needed */
+  font-family: "rockwell-nova", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+  /* Animation */
+  animation: fadeIn 1s ease-in-out 10s forwards;
+  opacity: 0; /* 10s delay, 1s duration, ease-in-out timing, forwards fill-mode */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

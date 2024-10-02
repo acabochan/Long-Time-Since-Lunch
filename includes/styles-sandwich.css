@@ -1,0 +1,193 @@
+body {
+    height: 350vh;
+    width: 100vw;
+    background-color: #fff6e2;
+    position: relative; 
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+  }
+
+.lunchbox {
+    background-image: url("../photo_flashbacks/lunchbox.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;  
+}
+
+.grilled-cheese {
+    background-image: url("../photo_flashbacks/grilled-cheese.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+}
+
+.cookie {
+    background-image: url("../photo_flashbacks/cookie.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+}
+
+.berries {
+    background-image: url("../photo_flashbacks/berries.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+}
+
+.rubix {
+    background-image: url("../photo_flashbacks/rubix.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+}
+
+.bottle {
+    background-image: url("../photo_flashbacks/bottle.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed;
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+}
+
+.tic-tac-toe {
+    background-image: url("../photo_flashbacks/tic-tac-toe.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+    z-index: 0;
+    top: 0; 
+    left: 0; 
+    z-index: 1;  
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.flashback-bg {
+    background-image: url("../photos/flashback-bg.png"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 100%; 
+    width: 100%; 
+    z-index: 0;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+}
+
+.waypoint {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    height: calc(100% / 10); /* dividing the body height by the number of waypoints */
+    bottom: calc((95% / 10) * (n - 1)); /* adjusting the bottom position based on the waypoint number */
+    z-index: 1;
+    opacity: 0;
+}
+
+#waypoint_1 {
+    bottom: calc(95% - (100% / 10) * 1); 
+}
+
+#waypoint_2 {
+    bottom: calc(85% - (100% / 10) * 2); 
+}
+
+#waypoint_3 {
+    bottom: calc(75% - (100% / 10) * 3); 
+}
+
+#waypoint_4 {
+    bottom: calc(65% - (100% / 10) * 4); 
+}
+
+#waypoint_5 {
+    bottom: calc(55% - (100% / 10) * 5); 
+}
+
+#waypoint_6 {
+    bottom: calc(45% - (100% / 10) * 6); 
+}
+
+#waypoint_7 {
+    bottom: calc(35% - (100% / 10) * 7);
+}
+
+#waypoint_8 {
+    bottom: calc(25% - (100% / 10) * 8);
+}
+
+#waypoint_9 {
+    bottom: calc(15% - (100% / 10) * 9); 
+}
+
+
+#waypoint_10 {
+    bottom: calc(5% - (100% / 10) * 9);
+}

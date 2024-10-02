@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="includes/reset.css">
+    <link rel="stylesheet" href="includes/styles-sandwich.css">
+    <title>heyyy-I-forgot-my-lunch-can-I-have-some-of-yours</title>
+    <script src="includes/noframework.waypoints.min.js"></script>
+
+</head>
+
+<body class = "body"> 
+
+    <div class="lunchbox"></div>
+
+    <div id="waypoint_1" class="waypoint"> ref 1 </div>
+
+    <div class="grilled-cheese"></div>
+
+    <div id="waypoint_2" class="waypoint"> ref 2 </div>
+
+    <div class="cookie"></div>
+
+    <div id="waypoint_3" class="waypoint"> ref 3 </div>
+
+    <div class="berries"></div>
+
+    <div id="waypoint_4" class="waypoint"> ref 4 </div>
+
+    <div class="rubix"></div>
+
+    <div id="waypoint_5" class="waypoint"> ref 5 </div>
+
+    <div class="bottle"></div>
+
+    <div id="waypoint_6" class="waypoint"> ref 6 </div>
+
+    <div class="tic-tac-toe"></div>
+
+    <div id="waypoint_7" class="waypoint"> ref 7 </div>
+
+    <div class="flashback-bg"></div>
+
+    <div id="waypoint_8" class="waypoint"> ref 8 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_1'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.lunchbox');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 50
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_2'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.grilled-cheese');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 100
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_3'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.cookie');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 100
+        });
+    });
+
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_4'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.berries');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 100
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_5'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.rubix');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 100
+        });
+    });
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_6'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.bottle');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 100
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint_7'),
+            handler: function(direction) {
+                var sleepingBag1 = document.querySelector('.tic-tac-toe');
+                sleepingBag1.classList.add('fade-in');
+            },
+            offset: 100
+        });
+    });
+</script>
+
+</body>
+</html>
